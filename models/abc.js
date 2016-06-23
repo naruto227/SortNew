@@ -25,7 +25,7 @@ exports.sub= function () {
         return;
     }
     myEvents.emit('change');
-}
+};
 myEvents.on('change', function () {
     var times = [];
     for (var i = 0; i < 60; i = i + 5) {
@@ -53,8 +53,8 @@ function updatename() {
         isFinish = true;
         return;
     }
-    var sql = "UPDATE `game_name`  SET `sort` ='" + config.poola[i] +
-        "'  WHERE `name` ='" + config.pool.poola[i] +
+    var sql = "UPDATE `game_name`  SET `sort` ='" + config.poola[page] +
+        "'  WHERE `name` ='" + config.pool.poola[page] +
         "';";
     conn.query(sql,function (err, rows, fleid) {
         if(err){
