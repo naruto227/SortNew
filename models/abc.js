@@ -61,7 +61,7 @@ function updatename() {
     // var json = JSON.stringify(config.pool);
     // var poola = config.poola[page];
     var sql = "UPDATE `game_name`  SET `sort_new` ='" + config.pool.all[page].key +
-        "'  WHERE `name` ='" + config.pool.all[page].value +
+        "'  WHERE `name` ='" + config.pool.all[page].name +
         "';";
     conn.query(sql,function (err, rows, fleid) {
         if(err){
