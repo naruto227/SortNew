@@ -53,8 +53,9 @@ function updatename() {
         isFinish = true;
         return;
     }
-    var sql = "UPDATE `game_name`  SET `sort` ='" + config.poola[page] +
-        "'  WHERE `name` ='" + config.pool.poola[page] +
+    var poola = config.poola[page];
+    var sql = "UPDATE `game_name`  SET `sort` ='" + poola +
+        "'  WHERE `name` ='" + config.pool.poola +
         "';";
     conn.query(sql,function (err, rows, fleid) {
         if(err){
