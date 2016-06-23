@@ -68,7 +68,6 @@ function updatename() {
         if(err){
             return console.log(err.message);
         }
-        console.log(rows.name);
     });
     // }
     page++;
