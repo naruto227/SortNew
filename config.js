@@ -8,71 +8,71 @@ var config = {
     pool: {
         all: [
             {
-                key: "我的世界", name: " 我的世界"
+                key: "我的世界", name: "我的世界"
             }
             ,
             {
-                key: "星际争霸", name: " 星际争霸"
+                key: "星际争霸", name: "星际争霸"
             }
             ,
             {
-                key: "网游前瞻", name: " 网络游戏"
+                key: "网游前瞻", name: "网络游戏"
             }
             ,
             {
-                key: "梦幻西游", name: " 梦幻西游"
+                key: "梦幻西游", name: "梦幻西游"
             }
             ,
             {
-                key: "王者荣耀", name: " 王者荣耀"
+                key: "王者荣耀", name: "王者荣耀"
             }
             ,
             {
-                key: "剑灵", name: " 剑灵"
+                key: "剑灵", name: "剑灵"
             }
             ,
             {
-                key: "传奇", name: " 传奇"
+                key: "传奇", name: "传奇"
             }
             ,
             {
-                key: "风暴英雄", name: " 风暴英雄"
+                key: "风暴英雄", name: "风暴英雄"
             }
             ,
             {
-                key: "DOTA2", name: " DOTA2"
+                key: "DOTA2", name: "DOTA2"
             }
             ,
             {
-                key: "三国杀", name: " 三国杀"
+                key: "三国杀", name: "三国杀"
             }
             ,
             {
-                key: "天涯明月刀", name: " 天涯明月刀"
+                key: "天涯明月刀", name: "天涯明月刀"
             }
             ,
             {
-                key: "传奇永恒", name: " 传奇永恒"
+                key: "传奇永恒", name: "传奇永恒"
             }
             ,
             {
-                key: "热门网游", name: " 热门网游"
+                key: "热门网游", name: "热门网游"
             }
             ,
             {
-                key: "棋牌娱乐", name: " 棋牌"
+                key: "棋牌娱乐", name: "棋牌"
             }
             ,
             {
-                key: "怀旧游戏", name: " 怀旧游戏"
+                key: "怀旧游戏", name: "怀旧游戏"
             }
             ,
             {
-                key: "魔兽争霸", name: " 魔兽争霸"
+                key: "魔兽争霸", name: "魔兽争霸"
             }
             ,
             {
-                key: "使命召唤OL", name: " 使命召唤OL"
+                key: "使命召唤OL", name: "使命召唤OL"
             }
             ,
             {
@@ -80,51 +80,51 @@ var config = {
             }
             ,
             {
-                key: "战舰世界", name: " 战舰世界"
+                key: "战舰世界", name: "战舰世界"
             }
             ,
             {
-                key: "炉石传说", name: " 炉石传说"
+                key: "炉石传说", name: "炉石传说"
             }
             ,
             {
-                key: "战争雷霆", name: " 战争雷霆"
+                key: "战争雷霆", name: "战争雷霆"
             }
             ,
             {
-                key: "地下城与勇士", name: " 地下城与勇士"
+                key: "地下城与勇士", name: "地下城与勇士"
             }
             ,
             {
-                key: "英雄联盟", name: " 英雄联盟"
+                key: "英雄联盟", name: "英雄联盟"
             }
             ,
             {
-                key: "主机游戏", name: " 单机游戏"
+                key: "主机游戏", name: "单机游戏"
             }
             ,
             {
-                key: "守望先锋", name: " 守望先锋"
+                key: "守望先锋", name: "守望先锋"
             }
             ,
             {
-                key: "穿越火线", name: " 穿越火线"
+                key: "穿越火线", name: "穿越火线"
             }
             ,
             {
-                key: "手游直播", name: " 手游"
+                key: "手游直播", name: "手游"
             }
             ,
             {
-                key: "单机联机", name: " 单机游戏"
+                key: "单机联机", name: "单机游戏"
             }
             ,
             {
-                key: "电子竞技", name: " 电子竞技"
+                key: "电子竞技", name: "电子竞技"
             }
             ,
             {
-                key: "网络游戏", name: " 网络游戏"
+                key: "网络游戏", name: "网络游戏"
             }
             ,
             {
