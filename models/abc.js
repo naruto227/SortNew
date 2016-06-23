@@ -13,20 +13,18 @@ var page = 0;
 var mypretime = 0;
 var isFinish = false;
 exports.sub= function () {
-    var Today = new Date();
-    var NowHour = Today.getHours();
-    var NowMinute = Today.getMinutes();
-    var NowSecond = Today.getSeconds();
-    var mysec = (NowHour * 3600) + (NowMinute * 60) + NowSecond;
-    if ((mysec - mypretime) > 10) {
-//10只是一个时间值，就是10秒内禁止重复提交，值随便设
-        mypretime = mysec;
-    } else {
-        return;
-    }
-    myEvents.emit('change');
-};
-myEvents.on('change', function () {
+//     var Today = new Date();
+//     var NowHour = Today.getHours();
+//     var NowMinute = Today.getMinutes();
+//     var NowSecond = Today.getSeconds();
+//     var mysec = (NowHour * 3600) + (NowMinute * 60) + NowSecond;
+//     if ((mysec - mypretime) > 10) {
+// //10只是一个时间值，就是10秒内禁止重复提交，值随便设
+//         mypretime = mysec;
+//     } else {
+//         return;
+//     }
+//     myEvents.emit('change');
     var times = [];
     for (var i = 0; i < 60; i = i + 1) {
         times.push(i);
@@ -42,7 +40,10 @@ myEvents.on('change', function () {
             updatename();
         }
     })
-});
+};
+// myEvents.on('change', function () {
+//
+// });
 
 function updatename() {
     // var sql = 'SELECT * FROM `rank`.`game_name` ORDER BY `id` DESC  LIMIT 0,50;'
