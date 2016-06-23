@@ -55,6 +55,6 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
+routes.sub();
 
 module.exports = app;

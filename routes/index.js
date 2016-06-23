@@ -29,7 +29,7 @@ router.get('/change', function (req, res) {
 
 var mypretime = 0;
 var isFinish = false;
-function sub() {
+exports.sub= function () {
     var Today = new Date();
     var NowHour = Today.getHours();
     var NowMinute = Today.getMinutes();
